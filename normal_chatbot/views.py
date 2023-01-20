@@ -20,6 +20,7 @@ def testing(request):
   }
   return HttpResponse(template.render(context, request))
 
+
 def tested(request):
   template = loader.get_template('my_first.html')
   context = {
